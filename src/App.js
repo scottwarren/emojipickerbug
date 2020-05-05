@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import { Picker as EmojiMartPicker } from "emoji-mart";
+import "emoji-mart/css/emoji-mart.css";
+import "./App.css";
+
+const Container = styled.div`
+  display: flex;
+`;
+
+const Column = styled.div`
+    flex: 50%;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Column>
+        <h3>With Native Prop</h3>
+        <EmojiMartPicker native />
+      </Column>
+      <Column>
+        <h3>Without Native Prop</h3>
+        <EmojiMartPicker />
+      </Column>
+    </Container>
   );
 }
 
