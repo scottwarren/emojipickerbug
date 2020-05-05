@@ -31,10 +31,16 @@ function App() {
 
       <Column>
         <h3>
-          <code>useButton</code> prop
+          <code>useButton</code> with <code>native</code> prop
         </h3>
         <EmojiMartPicker native useButton={false} />
       </Column>
+        <Column>
+            <h3>
+                <code>useButton</code> without <code>native</code> prop
+            </h3>
+            <EmojiMartPicker useButton={false} />
+        </Column>
     </Container>
   );
 }
