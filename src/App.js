@@ -9,7 +9,7 @@ const Container = styled.div`
 `;
 
 const Column = styled.div`
-    flex: 50%;
+  flex: 50%;
 `;
 
 function App() {
