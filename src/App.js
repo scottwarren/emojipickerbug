@@ -16,11 +16,11 @@ function App() {
   return (
     <Container>
       <Column>
-        <h3>With Native Prop</h3>
+        <h3>With the <code>native</code> prop</h3>
         <EmojiMartPicker native />
       </Column>
       <Column>
-        <h3>Without Native Prop</h3>
+        <h3>Without the <code>native</code> prop</h3>
         <EmojiMartPicker />
       </Column>
     </Container>
