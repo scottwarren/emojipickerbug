@@ -9,19 +9,31 @@ const Container = styled.div`
 `;
 
 const Column = styled.div`
-  flex: 50%;
+  flex: 1fr;
+  padding: 1em;
 `;
 
 function App() {
   return (
     <Container>
       <Column>
-        <h3>With the <code>native</code> prop</h3>
+        <h3>
+          With the <code>native</code> prop
+        </h3>
         <EmojiMartPicker native />
       </Column>
       <Column>
-        <h3>Without the <code>native</code> prop</h3>
+        <h3>
+          Without the <code>native</code> prop
+        </h3>
         <EmojiMartPicker />
+      </Column>
+
+      <Column>
+        <h3>
+          <code>useButton</code> prop
+        </h3>
+        <EmojiMartPicker native useButton={false} />
       </Column>
     </Container>
   );
