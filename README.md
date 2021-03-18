@@ -1,3 +1,5 @@
+[Chrome bug raised](https://bugs.chromium.org/p/chromium/issues/detail?id=1078327)
+
 Repository to demonstrate the rendering of certain emojis natively
 
 [Demo](https://emoji-picker-bug.netlify.app/)
