@@ -12,3 +12,7 @@ Run this locally by:
 Here is the two options rendered showing the difference in rendering of some emojis (see the pirate flag emoji):
 
 ![Rendered](/output.png?raw=true "Rendered")
+
+
+This ended up being displaying an issue with Chrome, as demonstrated here:
+[https://codepen.io/scottwarren/pen/oNjppxV]()
