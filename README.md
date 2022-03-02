@@ -17,4 +17,4 @@ Here is the two options rendered showing the difference in rendering of some emo
 
 
 This ended up being displaying an issue with Chrome, as demonstrated here:
-[https://codepen.io/scottwarren/pen/oNjppxV]()
+[https://codepen.io/scottwarren/pen/oNjppxV](https://codepen.io/scottwarren/pen/oNjppxV)
